@@ -1,0 +1,162 @@
+
+<aiml version="1.0">
+  <meta content="Ozoda" name="author"/>
+  <meta content="ko" name="language"/>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+		제가 모르는 질문입니다. 죄송합니다.
+	</template>
+  </category>
+
+  <category>
+    <pattern>안녕</pattern>
+       <template>
+          안녕하세요! 컴퓨팅적 사고 첫 강의입니다.
+       </template>
+  </category>
+	
+  <category>
+    <pattern>자율주행자동차* 뭐*</pattern>
+       <template>
+          자율주행자동차는 운전자 또는 승객의 조작 없이 자동차 스스로 운행이 가능한 자동차입니다.
+       </template>
+  </category>
+    
+  <category>
+    <pattern>자율주행자동차* 무*</pattern>
+       <template>
+          자율주행자동차는 운전자 또는 승객의 조작 없이 자동차 스스로 운행이 가능한 자동차입니다.
+       </template>
+  </category>
+  
+    
+  <category>
+    <pattern>소프트웨어* 뭐*</pattern>
+       <template>
+         소프트웨어는 저장장치에 저장된 특정한 목적의 하나 또는 다수의 컴퓨터 프로그램을 뜻합니다.
+       </template>
+  </category>
+    
+  <category>
+    <pattern>소프트웨어* 무*</pattern>
+       <template>
+          소프트웨어는 저장장치에 저장된 특정한 목적의 하나 또는 다수의 컴퓨터 프로그램을 뜻합니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>혁신* 뭐*</pattern>
+       <template>
+         혁신은 잘못된 것, 부패한 것, 만족스럽지 못한 것 등을 개선하거나 고치는 것을 말합니다.
+       </template>
+  </category>
+    
+  <category>
+    <pattern>혁신* 무*</pattern>
+       <template>
+          혁신은 잘못된 것, 부패한 것, 만족스럽지 못한 것 등을 개선하거나 고치는 것을 말합니다.
+       </template>
+  </category>
+  
+  
+  <category>
+    <pattern>컴퓨팅 사고* 뭐*</pattern>
+       <template>
+         컴퓨팅 사고는 컴퓨터(사람이나 기계)가 효과적으로 수행할 수 있도록 문제를 정의하고 그에 대한 답을 기술하는 것이 포함된 사고 과정 일체를 일컫습니다.
+       </template>
+  </category>
+    
+  <category>
+    <pattern>컴퓨팅 사고* 무*</pattern>
+       <template>
+          컴퓨팅 사고는 컴퓨터(사람이나 기계)가 효과적으로 수행할 수 있도록 문제를 정의하고 그에 대한 답을 기술하는 것이 포함된 사고 과정 일체를 일컫습니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>코딩* 무*</pattern>
+       <template>
+          코딩은 컴퓨터 프로그래밍에서 코드를 작성하는 것입니다.
+       </template>
+  </category>
+
+  category>
+    <pattern>코딩* 뭐*</pattern>
+       <template>
+          코딩은 컴퓨터 프로그래밍에서 코드를 작성하는 것입니다.
+       </template>
+  </category>  
+  
+  <category>
+    <pattern>알고리즘* 무*</pattern>
+       <template>
+          알고리즘은 어떠한 문제를 해결하기 위해 정해진 일련의 절차나 방법을 공식화한 형태로 표현한 것을 말합니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>알고리즘* 뭐*</pattern>
+       <template>
+          알고리즘은 어떠한 문제를 해결하기 위해 정해진 일련의 절차나 방법을 공식화한 형태로 표현한 것을 말합니다.
+       </template>
+  </category>
+
+<category>
+    <pattern>스크래치* 뭐*</pattern>
+       <template>
+          스크래치는 아이들에게 그래픽 환경을 통해 컴퓨터 코딩에 관한 경험을 쌓게 하기 위한 목적으로 설계된 교육용 프로그래밍 언어 및 환경입니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>스크래치* 무*</pattern>
+       <template>
+          스크래치는 아이들에게 그래픽 환경을 통해 컴퓨터 코딩에 관한 경험을 쌓게 하기 위한 목적으로 설계된 교육용 프로그래밍 언어 및 환경입니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>패턴화* 무*</pattern>
+       <template>
+          패턴화는 정보를 의미 있게 조직화하고 범주화하는 것을 말합니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>패턴화* 뭐*</pattern>
+       <template>
+          패턴화는 정보를 의미 있게 조직화하고 범주화하는 것을 말합니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>추상화* 뭐*</pattern>
+       <template>
+          추상화는 복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것을 말합니다.
+       </template>
+  </category>
+
+  <category>
+    <pattern>추상화* 무*</pattern>
+       <template>
+          추상화는 복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것을 말합니다.
+       </template>
+  </category>
+
+ <category>
+    <pattern>블렌디드 러닝* 무*</pattern>
+       <template>
+          블넨디드 러닝이란 온라인과 오프라인을 통합하는 수업방식으로 단순히 교실 수업에 온라인 요소를 활용하는 것 이상으로 학습의 효과성, 효율성 등을 높이기 위해 온라인과 오프라인 각 환경의 장점을 최대한 활용하는 수업방식입니다.
+       </template>
+  </category>
+  
+ <category>
+    <pattern>블렌디드 러닝* 뭐*</pattern>
+       <template>
+          블넨디드 러닝이란 온라인과 오프라인을 통합하는 수업방식으로 단순히 교실 수업에 온라인 요소를 활용하는 것 이상으로 학습의 효과성, 효율성 등을 높이기 위해 온라인과 오프라인 각 환경의 장점을 최대한 활용하는 수업방식입니다.
+       </template>
+  </category>
+  
+</aiml>

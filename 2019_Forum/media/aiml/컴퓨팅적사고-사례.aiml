@@ -1,0 +1,557 @@
+﻿
+<aiml version="1.0">
+  <meta content="Ozoda" name="author"/>
+  <meta content="ko" name="language"/>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+		제가 모르는 질문입니다. 죄송합니다.
+	</template>
+  </category>
+
+  <category>
+    <pattern>안녕</pattern>
+    <template>
+	  <random>
+        <li>훗 애송이</li>
+        <li>안녕하세요!</li>
+        <li>네, 안녕하세요</li>
+        <li>안녕</li>
+        <li>하이</li>
+      </random>
+	</template>
+  </category>
+	
+  
+  <category>
+    <pattern>이름 * 뭐*</pattern>
+    <template>
+		무카차입니다. 반갑습니다.
+	</template>
+  </category>
+  
+ 
+  <category>
+    <pattern>알고리즘* 뭐*</pattern>
+    <template>
+	    알고리즘(라틴어, 독일어: Algorithmus, 영어: algorithm)은 수학과 컴퓨터 과학, 언어학 또는 관련 분야에서 어떠한 문제를 해결하기 위해 정해진 일련의 절차나 방법을 공식화한 형태로 표현한 것을 말합니다.
+	</template>
+  </category>
+
+
+
+  <category>
+    <pattern>김치* 뭐*</pattern>
+    <template>
+	    김치는 배추, 무 등을 굵은 소금에 절여 씻은 다음 고춧가루, 파, 마늘, 생강 등의 양념과 젓갈을 넣어 버무려 만드는 한국의 저장 발효식품입니다. 김치의 종류는 많지만 일반적으로 알려진 매운 김치의 경우, 대표적인 조미료는 고춧가루와 젓갈 등이며, 한국에서는 지방마다 제조 과정이나 종류가 조금씩 다릅니다. 올림픽, 아시안 게임, FIFA 월드컵 공식 지정 식품이기도 합니다.
+	</template>
+  </category>
+
+
+  <category>
+    <pattern>폰 노이만* 뭐*</pattern>
+    <template>
+	    존 폰 노이만(영어: John von Neumann 존 본 노이먼: /dʒɔn vɒn ˈnɔɪmən/ , 독일어: Johann von Neumann 요한 폰 노이만, 헝가리어: Neumann János Lajos 너이만 야노시 러요시, 1903년 12월 28일 - 1957년 2월 8일)은 헝가리 출신 미국인 수학자입니다. 양자 역학, 함수 해석학, 집합론, 위상수학, 컴퓨터 과학, 수치해석, 경제학, 통계학 등 여러 학문 분야에 걸쳐 다양한 업적을 남겼습니다. 특히 연산자 이론을 양자역학에 접목시켰고, 맨해튼 계획과 프린스턴 고등연구소에 참여하였으며, 게임 이론과 세포 자동자의 개념을 공동 개발한 것으로 잘 알려져 있습니다.
+	</template>
+  </category>
+
+<category>
+    <pattern>축구공* 뭐*</pattern>
+    <template>
+	    동네에 하나씩은 굴러다니는 것.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>타요 버스* 뭐*</pattern>
+    <template>
+	    꼬마버스.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>추상화* 뭐*</pattern>
+    <template>
+	    컴퓨터 과학에서 추상화(abstraction)는 복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것을 말합니다.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>지하철* 뭐*</pattern>
+    <template>
+	    지옥철.
+	</template>
+  </category>
+
+
+<category>
+    <pattern>커피* 뭐*</pattern>
+    <template>
+	    코딩. 성공적.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>컴퓨팅* 뭐*</pattern>
+    <template>
+	    원래 컴퓨팅(computing)은 계산을 의미했고, 컴퓨터(computer)는 계산하는 사람이란 뜻이었습니다. (라틴어로compu)전기적 컴퓨터가 출현하면서 이를 사용하는 행위 또한 가리키게 되었고 (계산을 수행하는) 전기적 과정은 컴퓨터 하드웨어에서 수행되었습니다. 이 용어는 컴퓨터에서 실행하기 위한 프로그램을 제작하는 이론적 개념이 아니라, 컴퓨터 과학의 일부분으로서 수학적 계산을 수행(컴퓨팅)한다는 원래의 의미에도 대응합니다. 또한 넓은 의미에서 컴퓨터 기술 자원을 개발 및 사용하는 모든 활동을 가리키기도 합니다
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>개* 강아지* 뭐*</pattern>
+    <template>
+	    커여운 댕댕이.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>버블정렬* 뭐*</pattern>
+    <template>
+	    거품 정렬(Bubble sort)은 두 인접한 원소를 검사하여 정렬하는 방법입니다. 시간 복잡도가 O(n^{2})로 상당히 느리지만, 코드가 단순하기 때문에 자주 사용됩니다. 원소의 이동이 거품이 수면으로 올라오는 듯한 모습을 보이기 때문에 지어진 이름입니다.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>커피숍* 뭐*</pattern>
+    <template>
+	    코딩하는 곳.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>우주소녀* 뭐*</pattern>
+    <template>
+	    ㄹㅇ 루다가 세젤예 걸그룹이잖아!
+	</template>
+  </category>
+
+
+<category>
+    <pattern>우주소녀* 뭐*</pattern>
+    <template>
+	    계산기(計算器·計算機, 프랑스어: calculatrice, 독일어: Taschenrechner, 영어: calculator, 스페인어: calculadora, 문화어: 전자수판, 수산기)는 어떠한 사칙 연산을 포함한 계산이나, 여러 공학적 계산을 수행하는 장치입니다. 기계적인 방식이나 간단한 장치로만 되어있는 간단한 것에서부터 컴퓨터와 같은 복잡한 것까지 그 종류는 다양합니다.
+	</template>
+  </category>
+
+
+
+<category>
+    <pattern>라면* 뭐*</pattern>
+    <template>
+	    신라면, 감자탕면, 너구리, 맛짬뽕, 멸치칼국수, 무파마, 사리곰탕, 사천짜장, 안성탕면, 오짬, 우육탕, 새우탕, 짜왕, 튀김우동, 짜파구리, 나가사키 짬뽕, 스낵면, 진라면, 참깨라면, 팔도 비빔면, 꼬꼬면, 왕뚜껑
+	</template>
+  </category>
+
+
+
+
+<category>
+    <pattern>필터* 뭐*</pattern>
+    <template>
+	    1. 필터, 여과 장치, 2. (특정한 빛・소리만 통과시키는) 여광기(여파기), 3. (컴퓨터) 필터(특정 정보 차단 프로그램), 4. (英) (교통 신호등의) 좌회전/우회전 신호 
+	</template>
+  </category>
+
+
+
+
+<category>
+    <pattern>아키텍처* 뭐*</pattern>
+    <template>
+	    정보기술에서, 특히 컴퓨터나 최근의 네트웍에서 말하는 아키텍처란, 프로세스와 전체적인 구조나 논리적 요소들 그리고 컴퓨터와 운영체계, 네트웍 및 기타 다른 개념들 간의 논리적 상호관계 등을 생각해내고 정의하는 등, 모든 곳에 적용되는 용어입니다. 아키텍처는 OSI 참조모델처럼 하나의 참조 모델이 될 수도 있지만, 특정 제품의 구조를 위한 모델을 의미하거나, 또는 인텔 펜티엄 프로세서나 IBM의 OS/390 운영체계처럼 특정 제품의 구조가 될 수도 있습니다.
+	</template>
+  </category>
+
+
+
+
+
+
+<category>
+    <pattern>다익스트라* 뭐*</pattern>
+    <template>
+	    컴퓨터 과학에서, 데이크스트라 알고리즘(영어: Dijkstra algorithm) 또는 다익스트라 알고리즘은 도로 교통망 같은 곳에서 나타날 수 있는 그래프에서 꼭짓점 간의 최단 경로를 찾는 알고리즘입니다. 이 알고리즘은 컴퓨터 과학자 에츠허르 데이크스트라가 1956년에 고안했으며 삼 년 뒤에 발표했습니다.
+	</template>
+  </category>
+
+
+
+
+<category>
+    <pattern>네트워크* 네트워킹* 뭐*</pattern>
+    <template>
+	    컴퓨터 네트워크(computer network) 또는 컴퓨터망은 노드들이 자원을 공유할 수 있게 하는 디지털 전기통신망의 하나입니다. 즉, 분산되어 있는 컴퓨터를 통신망으로 연결한 것을 말합니다. 컴퓨터 네트워크에서 컴퓨팅 장치들은 노드 간 연결(데이터 링크)을 사용하여 서로에게 데이터를 교환합니다. 이 데이터 링크들은 유선, 광케이블과 같은 케이블 매체, 또는 와이파이와 같은 무선 매체를 통해 확립됩니다.
+	</template>
+  </category>
+
+
+
+
+
+  <category>
+    <pattern>컴퓨팅적 사고* 뭐*</pattern>
+    <template>
+	    컴퓨터(사람이나 기계)가 효과적으로 수행할 수 있도록 문제를 정의하고 그에 대한 답을 기술하는 것이 포함된 사고 과정 일체를 일컫는다.
+	</template>
+  </category>
+
+<category>
+    <pattern>컴퓨팅적 사고* 무*</pattern>
+    <template>
+	    컴퓨터(사람이나 기계)가 효과적으로 수행할 수 있도록 문제를 정의하고 그에 대한 답을 기술하는 것이 포함된 사고 과정 일체를 일컫는다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>스크래치* 뭐*</pattern>
+    <template>
+		그래픽 환경을 통해 컴퓨터 프로그래밍에 관한 경험을 쌓기 위한 목적으로 설계된 교육용 프로그래밍 언어 및 환경이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>스크래치* 무*</pattern>
+    <template>
+		그래픽 환경을 통해 컴퓨터 프로그래밍에 관한 경험을 쌓기 위한 목적으로 설계된 교육용 프로그래밍 언어 및 환경이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>제어블록* 무*</pattern>
+    <template>
+		참 또는 거짓 값을 가질 수 있는 형태의 자료가 참인지 거짓인지에 따라 다르게 연산을 처리할 수 있게 하는 문법이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>제어블록* 뭐*</pattern>
+    <template>
+		참 또는 거짓 값을 가질 수 있는 형태의 자료가 참인지 거짓인지에 따라 다르게 연산을 처리할 수 있게 하는 문법이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>연산블록* 뭐*</pattern>
+    <template>
+		산술연산, 비교 논리연산, 문자열 다루기, 난수 발생, 수학 함수 사용하기 등의 기능을 가지고 있는 블록이다.
+	</template>
+  </category>
+
+    <category>
+    <pattern>연산블록* 무*</pattern>
+    <template>
+		산술연산, 비교 논리연산, 문자열 다루기, 난수 발생, 수학 함수 사용하기 등의 기능을 가지고 있는 블록이다.
+	</template>
+  </category>
+
+  <category>
+    <pattern>변수* 뭐*</pattern>
+    <template>
+		영어로는 Variable로 (문자나 숫자 같은) 값을 담는 컨테이너다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>변수* 무*</pattern>
+    <template>
+		영어로는 Variable로 (문자나 숫자 같은) 값을 담는 컨테이너다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>리스트* 뭐*</pattern>
+    <template>
+		자료구조 형태 중 하나로 리스트는 값을 나열하는 것이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>리스트* 무*</pattern>
+    <template>
+		자료구조 형태 중 하나로 리스트는 값을 나열하는 것이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>정렬* 뭐*</pattern>
+    <template>
+		원소들을 번호 순이나 사전 순서와 같이 일정한 순서대로 열거하는 알고리즘이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>정렬* 무*</pattern>
+    <template>
+		원소들을 번호 순이나 사전 순서와 같이 일정한 순서대로 열거하는 알고리즘이다.
+	</template>
+  </category>
+ 
+  <category>
+  <pattern>맥락* 뭐*</pattern>
+    <template>어떤 사물이나 대상 등이 서로 연결되어 있는 관계이다.</template>
+    </category>
+
+  <category>
+  <pattern>맥락* 무*</pattern>
+    <template>어떤 사물이나 대상 등이 서로 연결되어 있는 관계이다.</template>
+  </category>
+  
+  <category>
+  <pattern>문제 분할* 뭐*</pattern>
+    <template>복잡한 문제를 다루기 용이한 작은 문제로 쪼개는 것이다</template>
+    </category>
+
+  <category>
+  <pattern>문제 분할* 무*</pattern>
+    <template>복잡한 문제를 다루기 용이한 작은 문제로 쪼개는 것이다.</template>
+    </category>
+
+<category>
+<pattern>패턴 식별* 뭐*</pattern>
+<template>분할된 문제들 간의 유사성 혹은 기존의 문제와의 유사성을 찾는 것이다.</template>
+</category>
+
+
+<category>
+<pattern>패턴 식별* 무*</pattern>
+<template>분할된 문제들 간의 유사성 혹은 기존의 문제와의 유사성을 찾는 것이다.</template>
+</category>
+
+<category>
+<pattern>추상화* 뭐*</pattern>
+<template> 복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것을 말한다.</template>
+</category>
+
+<category>
+<pattern>추상화* 무*</pattern>
+<template> 복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것을 말한다.</template>
+</category>
+
+ <category>
+    <pattern>연산자* 뭐*</pattern>
+    <template>
+	    특정한 작업을 하기 위해서 사용하는 기호를 의미한다. 작업의 종류에 따라서 대입 연산자, 산술 연산자, 비교 연산자, 논리 연산자 등이 있다.
+	</template>
+  </category>
+
+<category>
+    <pattern>연산자* 무*</pattern>
+    <template>
+	    특정한 작업을 하기 위해서 사용하는 기호를 의미한다. 작업의 종류에 따라서 대입 연산자, 산술 연산자, 비교 연산자, 논리 연산자 등이 있다.
+	</template>
+  </category>
+  
+
+<category>
+    <pattern>사칙 연산* 뭐*</pattern>
+    <template>
+	    산수의 기본이 되는 덧셈, 뺄셈, 곱셈, 나눗셈의 4가지 연산을 일컫는다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>사칙 연산* 무*</pattern>
+    <template>
+	    산수의 기본이 되는 덧셈, 뺄셈, 곱셈, 나눗셈의 4가지 연산을 일컫는다.
+	</template>
+  </category>
+   
+   <category>
+    <pattern>논리 연산* 뭐*</pattern>
+    <template>
+	    참, 거짓 두 가지 원소만 존재하는 집합에서의 연산이다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>논리 연산* 무*</pattern>
+    <template>
+	    참, 거짓 두 가지 원소만 존재하는 집합에서의 연산이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>비교 연산* 뭐*</pattern>
+    <template>
+	    비교 연산은 이항 연산자로 피연산자의 값의 크기를 비교하며 연산 결과는 참일 때 1, 거짓일 때 0이다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>비교 연산* 무*</pattern>
+    <template>
+	    비교 연산은 이항 연산자로 피연산자의 값의 크기를 비교하며 연산 결과는 참일 때 1, 거짓일 때 0이다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>나머지* 뭐*</pattern>
+    <template>
+	    나머지는 산술에서 두 정수의 나눗셈 이후, 온전한 정수 몫으로 표현할 수없이 남은 양을 가리킨다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>나머지* 무*</pattern>
+    <template>
+	   나머지는 산술에서 두 정수의 나눗셈 이후, 온전한 정수 몫으로 표현할 수없이 남은 양을 가리킨다.
+	</template>
+  </category>
+
+  <category>
+    <pattern>반올림* 뭐*</pattern>
+    <template>
+	    반올림(半-)은 근삿값을 구하는 방법 중 하나이다. 특정 기수법에서 절반 미만이면 0으로 버려준다. 절반 이상이면 0으로 버려주고 윗자리에 1을 더한다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>반올림* 무*</pattern>
+    <template>
+	   반올림(半-)은 근삿값을 구하는 방법 중 하나이다. 특정 기수법에서 절반 미만이면 0으로 버려준다. 절반 이상이면 0으로 버려주고 윗자리에 1을 더한다.
+	</template>
+  </category>
+  
+   <category>
+    <pattern>제곱근* 뭐*</pattern>
+    <template>
+	    어떤 수의 제곱 근(제곱根, 영어: square root)은 제곱하여 그 수가 되는 수를 가리킨다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>제곱근* 무*</pattern>
+    <template>
+	   어떤 수의 제곱 근(제곱根, 영어: square root)은 제곱하여 그 수가 되는 수를 가리킨다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>반복블록* 뭐*</pattern>
+    <template>
+	    반복문을 사용하면 주어진 연산을 인간이 할 수 없는 만큼 반복할 수 있기 때문에 컴퓨터의 가장 강력한 특징으로 꼽히는 신속성과 자동성을 활용할 수 있는 문법이라고 할 수 있다.
+	</template>
+  </category>
+  
+<category>
+    <pattern>반복블록* 무*</pattern>
+    <template>
+	   반복문을 사용하면 주어진 연산을 인간이 할 수 없는 만큼 반복할 수 있기 때문에 컴퓨터의 가장 강력한 특징으로 꼽히는 신속성과 자동성을 활용할 수 있는 문법이라고 할 수 있다.
+	</template>
+  </category>
+<category>
+    <pattern>순서도* 뭐*</pattern>
+    <template>
+	    다이어그램의 종류 중 하나로 여러 종류의 상자와 이를 이어주는 화살표를 이용해 명령의 순서를 보여주는 알고리즘 혹은 프로세스를 말한다.
+	</template>
+  </category>
+
+<category>
+    <pattern>선수도* 무*</pattern>
+    <template>
+	    다이어그램의 종류 중 하나로 여러 종류의 상자와 이를 이어주는 화살표를 이용해 명령의 순서를 보여주는 알고리즘 혹은 프로세스를 말한다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>스크립트* 뭐*</pattern>
+    <template>
+    컴퓨터에게 전달할 명령을 찾고 조립하고 실행하는 공간입니다. 아래 그림은 스크립트를 선택했을 때의 모습이다. 
+	</template>
+  </category>
+
+<category>
+    <pattern>스크립트* 무*</pattern>
+    <template>
+	    컴퓨터에게 전달할 명령을 찾고 조립하고 실행하는 공간입니다. 아래 그림은 스크립트를 선택했을 때의 모습이다. 
+	</template>
+  </category>
+
+<category>
+    <pattern>알고리즘* 뭐*</pattern>
+    <template>
+     수학과 컴퓨터 과학, 언어학 또는 관련 분야에서 어떠한 문제를 해결하기 위해 정해진 일련의 절차나 방법을 공식화한 형태로 표현한 것을 말한다.
+	</template>
+  </category>
+
+<category>
+    <pattern>알고리즘* 무*</pattern>
+    <template>
+	     수학과 컴퓨터 과학, 언어학 또는 관련 분야에서 어떠한 문제를 해결하기 위해 정해진 일련의 절차나 방법을 공식화한 형태로 표현한 것을 말한다.
+	</template>
+  </category>
+  
+  
+<category>
+    <pattern>명령어* 뭐*</pattern>
+    <template>
+     컴퓨터에서 특정한 작업을 수행하기 위한 해석기의 역할을 하는 컴퓨터 프로그램을 가리킨다.
+	</template>
+  </category>
+
+<category>
+    <pattern>명령어* 무*</pattern>
+    <template>
+	     컴퓨터에서 특정한 작업을 수행하기 위한 해석기의 역할을 하는 컴퓨터 프로그램을 가리킨다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>자바* 뭐*</pattern>
+    <template>
+    자바는 고급 언어이며, 객체 지향 언어다.
+	</template>
+  </category>
+
+<category>
+    <pattern>자바* 무*</pattern>
+    <template>
+	     자바는 고급 언어이며, 객체 지향 언어다.
+	</template>
+  </category>
+  
+  <category>
+    <pattern>코딩* 뭐*</pattern>
+    <template>
+    컴퓨터 프로그래밍에서 코드를 작성하는 것이다. </template>
+  </category>
+
+<category>
+    <pattern>코딩* 무*</pattern>
+    <template>
+	     컴퓨터 프로그래밍에서 코드를 작성하는 것.</template>
+  </category>
+  
+  <category>
+    <pattern>반복문* 뭐*</pattern>
+    <template>
+    프로그래밍에서 가장 중요한 요소 중 하나로 특정 작업을 반복적으로 수행하는 프로그래밍 문법이다.
+	</template>
+  </category>
+
+<category>
+    <pattern>반복문* 무*</pattern>
+    <template>
+	     프로그래밍에서 가장 중요한 요소 중 하나로 특정 작업을 반복적으로 수행하는 프로그래밍 문법이다.
+	</template>
+  </category>
+</aiml>
+

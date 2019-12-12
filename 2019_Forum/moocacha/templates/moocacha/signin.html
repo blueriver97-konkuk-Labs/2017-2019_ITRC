@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="" name="description">
+        <meta content="" name="author">
+        <title>MOOCACHA - Learning with videos and chatbots</title>
+        <!-- Bootstrap core CSS -->
+        <link
+        href="{% static 'moocacha/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="{% static 'moocacha/css/small-business.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">MOOCACHA</a>
+                <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="container">
+            <div class="my-4">
+                <h3 style="text-align:center;">Sign In</h3>
+                <form method="post" name="write_form_member">
+                    <table style="margin-left: auto; margin-right: auto;" width="25%">
+                        <tr bgcolor="#343a40" height="3">
+                            <td colspan="3"></td>
+                        </tr>
+                        <!--
+                        <tr>
+                            <th>아이디</th>
+                            <td>
+                                <input name="cursor:pointer" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>비밀번호</th>
+                            <td><input name="mbpw" type="password"/>
+                        </tr>
+                        -->
+                        {% csrf_token %}
+                        {{ form.as_table }}
+                            <tr bgcolor="#343a40" height="3">
+                                <td colspan="3"></td>
+                            </tr>
+                        </table>
+                        <br/>
+                        <div style="text-align:center;">
+                            <input type="submit" value="로그인">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /.container -->
+            <!-- Footer -->
+            <footer class="py-5 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+                </div>
+                <!-- /.container -->
+            </footer>
+            <!-- Bootstrap core JavaScript -->
+            <script src="{% static 'moocacha/vendor/jquery/jquery.min.js' %}"></script>
+            <script src="{% static 'moocacha/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        </body>
+    </html>

@@ -1,0 +1,106 @@
+
+<aiml version="1.0">
+  <meta content="Ozoda" name="author"/>
+  <meta content="ko" name="language"/>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+		제가 모르는 질문입니다. 죄송합니다.
+	</template>
+  </category>
+
+  <category>
+    <pattern>안녕*</pattern>
+    <template>
+	  <random>
+        <li>안녕하세요!</li>
+        <li>네, 안녕하세요</li>
+      </random>
+	</template>
+  </category>
+  <category>
+    <pattern>이름 * 뭐*</pattern>
+    <template>
+		무카차입니다. 반갑습니다.
+	</template>
+  </category>
+  <category>
+    <pattern>컴퓨팅적 사고* 뭐*</pattern>
+    <template>
+        <random>
+            <li>컴퓨터가 할 일을 정확하게 알려주기 위해 생각하는 것을 말합니다.</li>
+            <li>컴퓨팅적 사고는 문제를 형식화하고 정보처리기기에 의하여 표과적으로 수행될 수 있는 솔루션을 찾는 것과 관계된 사고 과정을 의미합니다.</li>
+        </random>
+	</template>
+  </category>
+  <category>
+    <pattern>프로그래밍* 뭐*</pattern>
+    <template>
+	    컴퓨터에게 컴퓨터가 할 일과 방법을 알려주는 것을 말합니다.
+	</template>
+  </category>
+  <category>
+    <pattern>ACM* 뭐*</pattern>
+    <template>
+	    컴퓨터 분야의 세계 최고 학술 단체 중 하나입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>형식화* 뭐*</pattern>
+    <template>
+	    문제의 표현법을 해석하고 본질을 표현해 내는 것입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>솔루션* 뭐*</pattern>
+    <template>
+	    문제를 해결하는 알고리즘을 말합니다.
+	</template>
+  </category>
+  <category>
+    <pattern>BCC bitesize* 뭐*</pattern>
+    <template>
+	    컴퓨팅적 사고를 문제분할, 패턴식별, 추상화, 알고리즘화, 평가의 다섯 단계로 나눈 것입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>문제분할* 뭐*</pattern>
+    <template>
+	    복잡한 문제를 다루기 용이한 작은 문제로 쪼개는 것입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>패턴식별* 뭐*</pattern>
+    <template>
+	    분할된 문제들 간의 유사성 또는 기존 문제들 간의 유사성을 찾는 것입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>추상화* 뭐*</pattern>
+    <template>
+	    패턴을 식별하는 과정에서 중요한 패턴에 집중하고, 관계가 적거나 중요하지 않은 내용은 무시하는 것입니다.
+        즉, 컴퓨터로 하여금 풀게 할 문제의 본질을 찾아내도록 하는 것입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>알고리즘* 뭐*</pattern>
+    <template>
+	    문제를 해결하기 위해 순차적으로 수행해 나가야할 명령의 집합을 말합니다.
+	</template>
+  </category>
+  <category>
+    <pattern>플로우차트* 뭐*</pattern>
+    <template>
+	    수행되어져야 할 명령의 집합을 표준화된 기호를 사용하여 순차적으로 표현한 다이어그램입니다.
+	</template>
+  </category>
+  <category>
+    <pattern>평가* 뭐*</pattern>
+    <template>
+	    고안된 솔루션이 주어진 문제를 제대로 해결하는 것인지 판단하는 과정입니다.
+        평가가 없으면 알고리즘의 오류나 고려하지 않은 사항을 알 수 없으므로 중요합니다.
+	</template>
+  </category>
+</aiml>
+

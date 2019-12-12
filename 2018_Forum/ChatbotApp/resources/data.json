@@ -1,0 +1,49 @@
+{
+	"data" : {
+		"groups" : {
+			"group1" : {
+				"name" : "이종 하이브리드 지원을 위한 컨테이너 중개 및 이동성 연구",
+				"title" : "CLAIR CHATBOT / Misuse Detection Based IDS With Machine Learning",
+				"img" : [],
+				"keyword" : ["챗봇", "CLAIR", "마이크로서비스", "REST", "API", "행사", "안내", "SaaS", "컨테이너","칩입","탐지","머신러닝","분석","Sniffing","list","Misuse","Detection", "IDS", "CHATBOT"],
+				"contents" : "/resources/건국대_1세부.txt"
+			},
+			"group2" : {
+				"name" : "감성지능 기반의 도시생활 큐레이션 융합 연구",
+				"title" : "사용자의 실시간 감성 인식을 이용한 시청각테라피 서비스",
+				"img" : [],
+				"keyword" : ["감성", "큐레이션", "도시생활", "추천", "치유", "테라 피", "얼굴", "음악", "영상", "컬러", "표정", "CNN", "Healthcare", "Mental", "시청각", "인식", "색인", "고바야시"],
+				"contents" : "/resources/건국대_2세부.txt"
+			},
+			"group3" : {
+				"name" : "클라우드 기반의 딥러닝 연구",
+				"title" : "클라우드 딥러닝 기반 자동차 주행상황 인지 기술",
+				"img" : [],
+				"keyword" : ["딥러닝", "상황", "Frame", "LSTM", "객체", "차량", "자율", "Level", "자동차", "주행", "임베디드", "GPU", "인지", "YOLO", "촬영", "Blackbox"],
+				"contents" : "/resources/건국대_3세부.txt"			
+			},
+			"group4" : {
+				"name" : "클라우드 기반 방송 제작 시스템 구축 자동화 연구",
+				"title" : "SNAS EzClient 클라우드 스토리지용 NAS 클라이언트",
+				"img" : [],
+				"keyword" : ["방송","SNAS", "노드", "저장", "EzClient","스토리지","Scalable","자동","콘텐츠", "Auto","대규모","인프라", "로컬", "클라이언트", "규모"],
+				"contents" : "/resources/건국대_4세부.txt"
+			},
+			"group5" : {
+				"name" : "지능정보 서비스를 위한 클라우드 환경에서의 고성능 GPU 가상화 연구",
+				"title" : "클라우드 기반 GPU 가상화 인프라",
+				"img" : [],
+				"keyword" : ["고성능","머신","인프라","고속","GPU","가상","하이퍼","메모리","GVT","그래픽스","할당", "문맥", "오버헤드"],
+				"contents" : "/resources/건국대_5세부.txt"			
+			}
+		},
+		"univ" : ["건국대학교", "건국대", "건대"],
+		"name" : "인공지능 클라우드 연구센터",
+		"title" : "지능정보 서비스를 위한 고성능 하이브리드 클라우드 컴퓨팅 기술개발",
+		"url" : "http://clair.konkuk.ac.kr/",
+		"location" : "Coex(Hall A) ITRC 전시장(지능형 플랫폼/서비스 그룹)",
+		"img" : ["/images/coex.jpg", "/images/center_location.jpg", "/images/center_design.jpg"],
+		"keyword" : ["클라우드","지능정보","하이브리드"],
+		"contents" : "/resources/건국대_ITRC.txt"
+	}
+}

@@ -1,0 +1,22 @@
+
+<aiml version="1.0">
+  <meta content="Ozoda" name="author"/>
+  <meta content="ko" name="language"/>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+		제가 모르는 질문입니다. 죄송합니다.
+	</template>
+  </category>
+
+  <category>
+    <pattern>안녕</pattern>
+    <template>
+	  <random>
+        <li>안녕하세요! 하일라이트2</li>
+        <li>네, 안녕하세요. 하일라이트2</li>
+      </random>
+	</template>
+  </category>
+</aiml>
